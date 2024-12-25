@@ -19,3 +19,4 @@ struct Score: Codable {
     let tracks: [String]
 }
 
+typealias Scores = [Score]

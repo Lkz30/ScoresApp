@@ -14,6 +14,8 @@
 		B37E4F402D1C0C4D00DD4717 /* scoresdata.json in Resources */ = {isa = PBXBuildFile; fileRef = B37E4F3F2D1C0C4D00DD4717 /* scoresdata.json */; };
 		B37E4F422D1C0C7D00DD4717 /* scoresdatatest.json in Resources */ = {isa = PBXBuildFile; fileRef = B37E4F412D1C0C7D00DD4717 /* scoresdatatest.json */; };
 		B37E4F462D1C1D6B00DD4717 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E4F452D1C1D6700DD4717 /* Score.swift */; };
+		B37E4F492D1C25DA00DD4717 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E4F482D1C25CA00DD4717 /* Repository.swift */; };
+		B37E4F4C2D1C292400DD4717 /* ScoresViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E4F4B2D1C291600DD4717 /* ScoresViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		B37E4F3F2D1C0C4D00DD4717 /* scoresdata.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = scoresdata.json; sourceTree = "<group>"; };
 		B37E4F412D1C0C7D00DD4717 /* scoresdatatest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = scoresdatatest.json; sourceTree = "<group>"; };
 		B37E4F452D1C1D6700DD4717 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		B37E4F482D1C25CA00DD4717 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		B37E4F4B2D1C291600DD4717 /* ScoresViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +71,12 @@
 			isa = PBXGroup;
 			children = (
 				B37E4F372D1C0A5000DD4717 /* ContentView.swift */,
-				B37E4F382D1C0A5000DD4717 /* ScoresAppApp.swift */,
+				B37E4F4A2D1C290900DD4717 /* ViewModels */,
+				B37E4F472D1C251100DD4717 /* Repository */,
 				B37E4F442D1C0D1100DD4717 /* Model */,
 				B37E4F3E2D1C0C1000DD4717 /* Resources */,
 				B37E4F362D1C0A5000DD4717 /* Assets.xcassets */,
+				B37E4F382D1C0A5000DD4717 /* ScoresAppApp.swift */,
 				B37E4F352D1C0A5000DD4717 /* Preview Content */,
 			);
 			path = ScoresApp;
@@ -90,6 +96,22 @@
 				B37E4F452D1C1D6700DD4717 /* Score.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		B37E4F472D1C251100DD4717 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				B37E4F482D1C25CA00DD4717 /* Repository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		B37E4F4A2D1C290900DD4717 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B37E4F4B2D1C291600DD4717 /* ScoresViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +192,8 @@
 				B37E4F3C2D1C0A5000DD4717 /* ContentView.swift in Sources */,
 				B37E4F462D1C1D6B00DD4717 /* Score.swift in Sources */,
 				B37E4F3D2D1C0A5000DD4717 /* ScoresAppApp.swift in Sources */,
+				B37E4F4C2D1C292400DD4717 /* ScoresViewModel.swift in Sources */,
+				B37E4F492D1C25DA00DD4717 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
