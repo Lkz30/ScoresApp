@@ -13,6 +13,7 @@
 		B37E4F3D2D1C0A5000DD4717 /* ScoresAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E4F382D1C0A5000DD4717 /* ScoresAppApp.swift */; };
 		B37E4F402D1C0C4D00DD4717 /* scoresdata.json in Resources */ = {isa = PBXBuildFile; fileRef = B37E4F3F2D1C0C4D00DD4717 /* scoresdata.json */; };
 		B37E4F422D1C0C7D00DD4717 /* scoresdatatest.json in Resources */ = {isa = PBXBuildFile; fileRef = B37E4F412D1C0C7D00DD4717 /* scoresdatatest.json */; };
+		B37E4F462D1C1D6B00DD4717 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E4F452D1C1D6700DD4717 /* Score.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		B37E4F382D1C0A5000DD4717 /* ScoresAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresAppApp.swift; sourceTree = "<group>"; };
 		B37E4F3F2D1C0C4D00DD4717 /* scoresdata.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = scoresdata.json; sourceTree = "<group>"; };
 		B37E4F412D1C0C7D00DD4717 /* scoresdatatest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = scoresdatatest.json; sourceTree = "<group>"; };
+		B37E4F452D1C1D6700DD4717 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		B37E4F442D1C0D1100DD4717 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B37E4F452D1C1D6700DD4717 /* Score.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B37E4F3C2D1C0A5000DD4717 /* ContentView.swift in Sources */,
+				B37E4F462D1C1D6B00DD4717 /* Score.swift in Sources */,
 				B37E4F3D2D1C0A5000DD4717 /* ScoresAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
