@@ -9,7 +9,7 @@ import Foundation
 
 /// Este struct es la primera parte del modelo que usare para importar y leer los datos a partir de un fichero **JSON**, el cual pertenece al protocolo **CODABLE**
 
-struct Score: Codable {
+struct Score: Codable, Identifiable{
     let id: Int
     let title: String
     let composer:String
