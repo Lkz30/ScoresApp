@@ -6,17 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B37E4F3A2D1C0A5000DD4717 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B37E4F342D1C0A5000DD4717 /* Preview Assets.xcassets */; };
+		B37E4F3B2D1C0A5000DD4717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B37E4F362D1C0A5000DD4717 /* Assets.xcassets */; };
+		B37E4F3C2D1C0A5000DD4717 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E4F372D1C0A5000DD4717 /* ContentView.swift */; };
+		B37E4F3D2D1C0A5000DD4717 /* ScoresAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37E4F382D1C0A5000DD4717 /* ScoresAppApp.swift */; };
+		B37E4F402D1C0C4D00DD4717 /* scoresdata.json in Resources */ = {isa = PBXBuildFile; fileRef = B37E4F3F2D1C0C4D00DD4717 /* scoresdata.json */; };
+		B37E4F422D1C0C7D00DD4717 /* scoresdatatest.json in Resources */ = {isa = PBXBuildFile; fileRef = B37E4F412D1C0C7D00DD4717 /* scoresdatatest.json */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B37E4F232D1C0A2C00DD4717 /* ScoresApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoresApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B37E4F342D1C0A5000DD4717 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B37E4F362D1C0A5000DD4717 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B37E4F372D1C0A5000DD4717 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B37E4F382D1C0A5000DD4717 /* ScoresAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresAppApp.swift; sourceTree = "<group>"; };
+		B37E4F3F2D1C0C4D00DD4717 /* scoresdata.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = scoresdata.json; sourceTree = "<group>"; };
+		B37E4F412D1C0C7D00DD4717 /* scoresdatatest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = scoresdatatest.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B37E4F252D1C0A2C00DD4717 /* ScoresApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ScoresApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B37E4F202D1C0A2C00DD4717 /* Frameworks */ = {
@@ -32,7 +39,7 @@
 		B37E4F1A2D1C0A2C00DD4717 = {
 			isa = PBXGroup;
 			children = (
-				B37E4F252D1C0A2C00DD4717 /* ScoresApp */,
+				B37E4F392D1C0A5000DD4717 /* ScoresApp */,
 				B37E4F242D1C0A2C00DD4717 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +50,43 @@
 				B37E4F232D1C0A2C00DD4717 /* ScoresApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B37E4F352D1C0A5000DD4717 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B37E4F342D1C0A5000DD4717 /* Preview Assets.xcassets */,
+				B37E4F412D1C0C7D00DD4717 /* scoresdatatest.json */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B37E4F392D1C0A5000DD4717 /* ScoresApp */ = {
+			isa = PBXGroup;
+			children = (
+				B37E4F372D1C0A5000DD4717 /* ContentView.swift */,
+				B37E4F382D1C0A5000DD4717 /* ScoresAppApp.swift */,
+				B37E4F442D1C0D1100DD4717 /* Model */,
+				B37E4F3E2D1C0C1000DD4717 /* Resources */,
+				B37E4F362D1C0A5000DD4717 /* Assets.xcassets */,
+				B37E4F352D1C0A5000DD4717 /* Preview Content */,
+			);
+			path = ScoresApp;
+			sourceTree = "<group>";
+		};
+		B37E4F3E2D1C0C1000DD4717 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B37E4F3F2D1C0C4D00DD4717 /* scoresdata.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B37E4F442D1C0D1100DD4717 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +103,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				B37E4F252D1C0A2C00DD4717 /* ScoresApp */,
 			);
 			name = ScoresApp;
 			packageProductDependencies = (
@@ -109,6 +150,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B37E4F422D1C0C7D00DD4717 /* scoresdatatest.json in Resources */,
+				B37E4F3A2D1C0A5000DD4717 /* Preview Assets.xcassets in Resources */,
+				B37E4F402D1C0C4D00DD4717 /* scoresdata.json in Resources */,
+				B37E4F3B2D1C0A5000DD4717 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +164,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B37E4F3C2D1C0A5000DD4717 /* ContentView.swift in Sources */,
+				B37E4F3D2D1C0A5000DD4717 /* ScoresAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
