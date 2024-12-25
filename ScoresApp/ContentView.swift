@@ -12,13 +12,13 @@ struct ContentView: View {
     @ObservedObject private var scoresVM = ScoresViewModel(repository: <#Repository#>)
     
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hola , world!")
+        NavigationStack {
+            List{
+                ForEach(scoresVM.scores) { score in
+                    Text(score.title)
+                }
+            }
         }
-        .padding()
     }
 }
 
